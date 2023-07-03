@@ -1,7 +1,8 @@
-import { HiMenuAlt1, HiX, HiHome, HiUser, HiNewspaper, HiBriefcase, HiBookOpen, HiMail } from "react-icons/hi";
+import {  HiUser } from "react-icons/hi";
 import { FaDownload } from "react-icons/fa";
 import sign from "../../../assets/Images/Sign.png"
 import Services from "../Services/Services";
+import Clients from "../Clients/Clients";
 const AboutMe = () => {
     return (
         <section className="py-5 px-[2.5%]">
@@ -70,6 +71,7 @@ Matlab(North), Chandpur.</span>
                     </div>
                 </div>
                 <Services />
+                <Clients />
             </div>
         </section>
     );

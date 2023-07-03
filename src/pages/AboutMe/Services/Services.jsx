@@ -3,7 +3,7 @@ import { FaLaptopHouse, FaLaptopCode, FaShieldAlt } from "react-icons/fa";
 const Services = () => {
     return (
         <div className="py-5">
-            <div className="text-center my-3">
+            <div className="text-center my-5">
                 <h1 className="uppercase text-3xl mb-1">
                     Services
                 </h1>
