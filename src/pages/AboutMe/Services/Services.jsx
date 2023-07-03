@@ -9,7 +9,7 @@ const Services = () => {
                 </h1>
                 <p className="w-40 h-1 bg-base-content rounded-full mx-auto"><p className="w-1/3 h-full bg-primary rounded-full"></p></p>
             </div>
-            <div className="flex flex-wrap gap-5 justify-between py-3">
+            <div className="flex flex-wrap gap-5 justify-around py-3">
                 <div className="flex-1 p-3 border border-base-content w-80">
                     <FaLaptopHouse className="text-7xl mb-3 text-primary" />
                     <div>

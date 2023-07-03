@@ -1,5 +1,6 @@
 import { HiNewspaper } from "react-icons/hi";
 import Education from "../Education/Education";
+import Skills from "../Skills/Skills";
 
 const Resume = () => {
     return (
@@ -9,8 +10,9 @@ const Resume = () => {
                     <h1 className="uppercase">Resume.</h1>
                     <HiNewspaper />
                 </div>
-                <div className="py-5">
+                <div>
                     <Education />
+                    <Skills />
                 </div>
             </div>
         </section>
