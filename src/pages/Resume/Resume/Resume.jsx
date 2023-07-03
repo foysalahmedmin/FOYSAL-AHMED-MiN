@@ -1,6 +1,7 @@
 import { HiNewspaper } from "react-icons/hi";
 import Education from "../Education/Education";
 import Skills from "../Skills/Skills";
+import Courses from "../Courses/Courses";
 
 const Resume = () => {
     return (
@@ -12,6 +13,7 @@ const Resume = () => {
                 </div>
                 <div>
                     <Education />
+                    <Courses />
                     <Skills />
                 </div>
             </div>

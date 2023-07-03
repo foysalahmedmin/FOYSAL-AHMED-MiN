@@ -17,7 +17,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className='md:max-w-[50%] text-center md:text-left xl:max-w-lg'>
-                    <h1 className='md:text-5xl text-5xl font-bold mb-3 uppercase'>
+                    <h1 className='md:text-5xl text-3xl font-bold mb-3 uppercase'>
                         Foysal Ahmed
                     </h1>
                     <p className='mb-5'><span>I'm </span><span className='font-semibold border-b border-primary'>{text}</span></p>

@@ -8,12 +8,12 @@ const SideBar = () => {
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
             <div className="drawer-side">
                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-                <div className="overflow-hidden p-4 py-5 w-60 flex flex-col h-full bg-base-300 text-base-content">
+                <div className="overflow-hidden grid justify-between items-center h-full p-3 py-5 w-60 bg-base-300 text-base-content">
                     <div className="text-center w-full">
                         <div className="text-center w-full">
                             <img className="rounded-full mx-auto h-40 w-40 object-cover" src={profileImg} alt="" />
                         </div>
-                        <div className="text-center py-5 border-b-2">
+                        <div className="text-center py-5">
                             <h1 className="uppercase text-2xl font-bold text-primary">Foysal Ahmed</h1>
                             <h3>MERN Stack Developer</h3>
                             <div className="flex gap-3 justify-center pt-5">
@@ -24,7 +24,8 @@ const SideBar = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex-col py-5 border-b-2">
+                    <hr />
+                    <div className="flex-col w-full py-5">
                         <div className="mb-3 flex gap-3 items-center">
                             <span><FaLocationDot className="text-primary" /></span> <p>Dhaka, Bangladesh</p>
                         </div>
@@ -35,6 +36,7 @@ const SideBar = () => {
                             <span><FaFlag className="text-primary" /></span> <p>Bangladeshi</p>
                         </div>
                     </div>
+                    <hr />
                     <div className="flex justify-between py-5">
                         <div className="text-center">
                             <div className="radial-progress" style={{ "--value": "75", "--size": "3.5rem", "--thickness": "2px" }}>75%</div>
