@@ -1,8 +1,10 @@
-import {  HiUser } from "react-icons/hi";
+import { HiUser } from "react-icons/hi";
 import { FaDownload } from "react-icons/fa";
 import sign from "../../../assets/Images/Sign.png"
 import Services from "../Services/Services";
 import Clients from "../Clients/Clients";
+import Reviews from "../Reviews/Reviews";
+import SectionTitle from "../../../components/SectionTitle";
 const AboutMe = () => {
     return (
         <section className="py-5 px-[2.5%]">
@@ -11,11 +13,9 @@ const AboutMe = () => {
                     <h1 className="uppercase">About Me.</h1>
                     <HiUser />
                 </div>
-                <div className="md:flex gap-5 justify-between py-5">
+                <div className="py-5 md:flex gap-5 justify-between">
                     <div className='flex-1 mb-5 md:mb-auto'>
-                        <h1 className='text-2xl font-bold mb-3 uppercase'>
-                            Web Developer
-                        </h1>
+                        <SectionTitle title={'Web Developer'} />
                         <p className='mb-3 opacity-75'>
                             Hello! I'm Foysal Ahmed, a junior MERN stack developer with a strong passion for web development. I have completed a comprehensive MERN stack web development course and gained hands-on experience building interactive web applications. I am dedicated to continuous learning and staying updated with the latest trends in the field.
                             <br /> <br />
@@ -31,9 +31,7 @@ const AboutMe = () => {
                     </div>
                     <div>
                         <div className="md:w-96" >
-                            <h1 className='text-2xl font-bold mb-3 uppercase'>
-                                Personal Information
-                            </h1>
+                            <SectionTitle title={'Personal Information'} />
                             <div className="mb-5">
                                 <p className="mb-2">
                                     <span className="border-b border-primary font-semibold">Name:</span> <span>Foysal Ahmed</span>
@@ -49,11 +47,11 @@ const AboutMe = () => {
                                 </p>
                                 <p className="mb-2">
                                     <span className="border-b border-primary font-semibold">Current Address:</span> <span>71/18, Sanarpar, West Boxnogor, Demra,
-Dhaka.</span>
+                                        Dhaka.</span>
                                 </p>
                                 <p className="mb-2">
-                                    <span className="border-b border-primary font-semibold">Permanent Address:</span> <span>Prodan bhari,Shatnol, 3646, 
-Matlab(North), Chandpur.</span>
+                                    <span className="border-b border-primary font-semibold">Permanent Address:</span> <span>Prodan bhari,Shatnol, 3646,
+                                        Matlab(North), Chandpur.</span>
                                 </p>
                                 <p className="mb-2">
                                     <span className="border-b border-primary font-semibold">Continent:</span> <span>Asia</span>
@@ -72,6 +70,7 @@ Matlab(North), Chandpur.</span>
                 </div>
                 <Services />
                 <Clients />
+                <Reviews />
             </div>
         </section>
     );

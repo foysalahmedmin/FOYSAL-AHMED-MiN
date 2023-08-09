@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import Review_card from './Review_Card';
 import { useEffect, useState } from "react";
+import SectionTitle from "../../../components/SectionTitle";
 
 const Reviews = () => {
     const [reviews, setReviews] = useState([])
@@ -13,6 +14,7 @@ const Reviews = () => {
     }, [])
     const settings = {
         dots: true,
+        arrows: false,
         className: "center",
         centerMode: true,
         infinite: true,
@@ -41,15 +43,8 @@ const Reviews = () => {
         ]
     };
     return (
-        <section className='py-10'>
-            <div className='py-5 text-center'>
-                <h1 className='uppercase text-3xl font-black font-rancho text-animation'>Customer Reviews</h1>
-                <p className='mb-3'>
-                    Journey of Knowledge and Fun: Enlightening Young Minds with an Extensive Array of Educational Toys, <br /> Engaging Games, and Interactive Learning Resources at the Sparkling Stars Academy.
-                </p>
-                <p className='bg-primary border-dotted border-b-4 w-40 mx-auto mb-2'></p>
-                <p className='bg-secondary h-[2px] w-24 mx-auto'></p>
-            </div>
+        <section className="lg:max-w-[calc(100vw-20rem)] mx-auto my-5">
+            <SectionTitle title={'Testimonials'} />
             <div>
                 <Slider {...settings}>
                     {

@@ -1,13 +1,9 @@
+import SectionTitle from "../../../components/SectionTitle";
 
 const Courses = () => {
     return (
         <div className="py-5">
-            <div className="">
-                <h1 className="uppercase text-3xl mb-1">
-                    Courses
-                </h1>
-                <p className="w-40 h-1 bg-base-content rounded-full"><p className="w-1/3 h-full bg-primary rounded-full"></p></p>
-            </div>
+            <SectionTitle title={'Courses'} />
             <div className="border-l-4 border-primary py-10 px-5 relative my-10">
                 <div>
                     <h1 className="uppercase text-xl font-semibold text-primary">COMPLETE WEB DEVELOPMENT WITH JANKAR MAHABUB</h1>

@@ -4,11 +4,11 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const SideBar = () => {
     return (
-        <div className="drawer lg:drawer-open">
+        <div className="drawer z-50 lg:drawer-open">
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
             <div className="drawer-side">
                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-                <div className="overflow-hidden grid justify-between items-center h-full p-3 py-5 w-60 bg-base-300 text-base-content">
+                <div className="overflow-hidden grid justify-between h-full p-5 bg-base-300 text-base-content">
                     <div className="text-center w-full">
                         <div className="text-center w-full">
                             <img className="rounded-full mx-auto h-40 w-40 object-cover" src={profileImg} alt="" />
@@ -39,15 +39,15 @@ const SideBar = () => {
                     <hr />
                     <div className="flex justify-between py-5">
                         <div className="text-center">
-                            <div className="radial-progress" style={{ "--value": "75", "--size": "3.5rem", "--thickness": "2px" }}>75%</div>
+                            <div className="radial-progress text-primary" style={{ "--value": "75", "--size": "3.5rem", "--thickness": "2px" }}>75%</div>
                             <p>Bangla</p>
                         </div>
                         <div className="text-center">
-                            <div className="radial-progress" style={{ "--value": "55", "--size": "3.5rem", "--thickness": "2px" }}>55%</div>
+                            <div className="radial-progress text-primary" style={{ "--value": "55", "--size": "3.5rem", "--thickness": "2px" }}>55%</div>
                             <p>English</p>
                         </div>
                         <div className="text-center">
-                            <div className="radial-progress" style={{ "--value": "50", "--size": "3.5rem", "--thickness": "2px" }}>50%</div>
+                            <div className="radial-progress text-primary" style={{ "--value": "50", "--size": "3.5rem", "--thickness": "2px" }}>50%</div>
                             <p>Hindi</p>
                         </div>
                     </div>

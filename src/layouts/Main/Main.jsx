@@ -7,8 +7,8 @@ const Main = () => {
         <>
             <main className="flex w-screen mx-auto justify-center lg:h-screen overflow-y-hidden flex-row-reverse relative">
                 <section className="flex-1 relative w-screen lg:w-full">
-                    <Header dashboard={true} />
-                    <div className="min-h-[calc(100vh-5rem)] lg:h-[calc(100vh-5rem)] lg:overflow-y-scroll">
+                    <Header />
+                    <div className="min-h-[calc(100vh-5rem)] pt-16 lg:pt-0 lg:h-[calc(100vh-5rem)] lg:overflow-y-scroll">
                         <Outlet />
                     </div>
                 </section>
